@@ -223,7 +223,215 @@ footer p {
     background-attachment: fixed;
     overflow: hidden;
 }
+.caption{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    height: 320px;
+    position: relative;
+    background: url('../img/diseno.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
 
+.caption2{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    height: 320px;
+    position: relative;
+    background: url('../img/constru.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.caption3{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    height: 320px;
+    position: relative;
+    background: url('../img/consul.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.fondo-caption{
+    position: relative;
+    height: 320px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.texto-vertical {
+  width:35px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align:center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5%;
+  background-color: rgba(255,255,255,.5);
+}
+.texto-vertical2 {
+  width:35px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align:center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5%;
+  background-color: rgba(255,255,255,.5);
+}
+
+.caption4{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    height: 320px;
+    position: relative;
+    background: url('../img/arquitectura.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.caption5{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    height: 320px;
+    position: relative;
+    background: url('../img/estudios.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.caption6{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    height: 320px;
+    position: relative;
+    background: url('../img/gestion.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.caption{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.caption2{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.caption3{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.caption4{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.caption5{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.caption6{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.caption:hover{
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.caption2:hover{
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.caption3:hover{
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.caption4:hover{
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.caption5:hover{
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.caption6:hover{
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    transform: scale(1.06);
+}
 
 /*--------------contacto---------*/
 
+.bannerc {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url('../img/contacto.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.jumbotron {
+background: #FB4200;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { 
+padding-top: 24px;
+padding-bottom: 24px;
+ }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 17px;
+}

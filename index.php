@@ -75,7 +75,7 @@
 		            </p>
 		          </div>
 		        </div>
-		         <div style="text-align: center; margin-top: 5%; margin-bottom: 5%; color: #fff;">
+		         <div style="text-align: center; margin-bottom: 5%; color: #fff;">
     <a class="btn btn-warning btn-outline btn-lg btn-color" data-scroll href="vistas/contacto.php">CONTACTANOS</a>
   </div>
 	</div>
