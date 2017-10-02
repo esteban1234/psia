@@ -1,15 +1,20 @@
 <?php
 //Librerías para el envío de mail
 require('../phpmailer/phpmailer/class.phpmailer.php');
+
 //PHPMailer Object
 $mail = new PHPMailer();
 
 // Recoger los valores del Formulario
 
-$nombre = $_POST['nombre'];
-$telefono = $_POST['telefono'];
-$correo = $_POST['correo'];
-$comentario = $_POST['comentario'];
+$nombre = $_POST['txtNOMBRE'];
+$telefono = $_POST['txtTELEFONO'];
+$correo = $_POST['txtCORREO'];
+$comentario = $_POST['txtCOMENTARIO'];
+
+// if (filter_var($, FILTER_VALIDATE_EMAIL)) {
+//     echo "Esta dirección de correo ($email_a) es válida.";
+// }
 
 $mail->CharSet = 'utf-8';
 //From email address and name
@@ -18,31 +23,37 @@ $mail->FromName = $nombre;
 
 //To address and name
 $mail->addAddress("info@serviciospsia.com");
+// $mail->addAddress("ballina.santiago@gmail.com");
+
 
 $mail->isHTML(true);
 
-$mail->Subject = "Cotizacion PSIA";
+$mail->Subject = "Cotización PSIA";
 $mail->Body = "
-              <b>Telefono: </b>.$telefono.<br/>
-              <b>Comentario: </b>.$comentario.<br/>";
+              <b>Telefono: </b>$telefono<br/>
+              <b>Comentario: </b>$comentario<br/>";
 // $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send())
 {
-    // echo "Error al enviar Mensaje: " . $mail->ErrorInfo;
-    echo ("<SCRIPT LANGUAGE='JavaScript'>
-          window.alert('Error al Enviar MENSAJE')
-          window.location.href='contacto.php'
-        </SCRIPT>");
+
+  $html = '<div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Error</strong> al enviar los datos.
+                </div>';
+  // $html = 2;
 
 }
 else
 {
-  echo ("<SCRIPT LANGUAGE='JavaScript'>
-        window.alert('Mensaje Enviado Correctamente')
-        window.location.href='contacto.php'
-      </SCRIPT>");
 
+ $html = '<div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Datos</strong> Enviados Correctamente.
+                </div>';
 
 }
+
+echo $html;
+
 ?>
