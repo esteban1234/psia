@@ -14,6 +14,9 @@
 			<a class="selector" id="select" href="contacto.php">CONTACTO</a>
 		</ul>
 	</nav>
+    <div class="menu-op">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
 </div>
 
 
@@ -30,15 +33,15 @@
 </div> <br><br>
 <div class="container" style="margin-bottom: 5%;">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-sm-6 col-md-8">
             <div class="well well-sm">
-                <form>
+                <form onSubmit="return false">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Nombre</label>
-                            <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre completo" required="required" />
+                            <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -46,31 +49,32 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Escribe tu correo completo" required="required" /></div>
+                                <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu correo completo" required="required" /></div>
                         </div>
                         <div class="form-group">
                             <label for="name">
                                 Teléfono</label>
-                            <input type="text" class="form-control" id="name" placeholder="Escribe tu teléfono completo" required="required" />
+                            <input type="text" class="form-control" id="txtTELEFONO" placeholder="Escribe tu teléfono completo" required="required" />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Comentario</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            <textarea name="message" id="txtCOMENTARIO" class="form-control" rows="9" cols="25" required="required"
                                 placeholder="Escribe tu comentario"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-warning pull-right" id="btnContactUs">
+                        <div id="_AJAX_PRE_"></div>
+                        <button type="submit" class="btn btn-warning pull-right" id="btnContactUs" onclick="sendCORREO()">
                             ENVIAR MENSAJE</button>
                     </div>
                 </div>
                 </form>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-6 col-md-4">
             <form>
             <legend><span class="glyphicon glyphicon-globe"></span> PRESTADORES DE SERVICIOS INTELIGENTES ABOUMEYANG S.C.P.</legend>
             <address>
@@ -101,6 +105,7 @@
 <script type="text/javascript" src="../js/iconoarriba.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/menu.js"></script>
+<script src="../js/sendCORREO.js"></script>
 
 </body>
 </html>

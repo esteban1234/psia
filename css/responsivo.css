@@ -1,0 +1,650 @@
+@media screen and (max-width: 480px){
+	/**********DISEÑO INDEX***************/
+	.banner, .banners, .bannerc, .bannern{
+		height: 100%;
+	}
+
+	.logo{
+		/*border: 2px solid red;*/
+		margin: auto;
+		width: 40%;
+	}
+
+	nav{
+		width: 100%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul a{
+		padding: 5px 15px !important;
+		font-size: 18px !important;
+	}
+	
+	.menu-op{
+		background: #fff;
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		padding: 3px;
+		cursor: pointer;
+		display: block;
+	}
+
+	.menu-op i{
+		/*border: 2px solid red;*/
+		font-size: 20px;
+	}
+
+
+	.texto, .texto2, .txt-nos{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.texto br{
+		display: none;
+	}
+
+	.imagen, .img-txt2, .imagen2, .imagen3{
+		height: 150px;
+	}
+
+	.img-txt2{
+		margin: auto;
+	}
+
+	.h2-nos{
+		background: rgba(255,255,255,.6);
+		color: #000 !important;
+		font-weight: bold;
+		padding: 10px 0px;
+	}
+
+	.txt-ser li, .txt-pro li{
+		border: 2px solid red !important;
+		text-align: center !important;
+		overflow: hidden !important; 
+		width: 50%;
+		margin: auto;
+	}
+
+	.hola div{
+		text-align: center !important;
+	}
+	/*********END DISEÑO INDEX*********/
+
+	/*********DISEÑO SERVICIOS*********/
+	.caption, .caption2, .caption3, .caption4, .caption5, .caption6{
+		/*border: 2px solid red;*/
+		width: 80%;
+		height: 200px;
+		margin: auto !important;
+		float: none !important;
+	}
+
+	.images{
+		text-align: center;
+	}
+	
+	.texto-vertical, .texto-vertical2{
+		/*border: 2px solid red;*/
+		word-wrap: normal;
+		width: 60%;
+		margin: auto;
+		padding: 5px 0px !important;
+		/*vertical-align: center;*/
+		/*align-items: middle;*/
+		vertical-align: middle;
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+
+	.caption:hover, .caption2:hover, .caption3:hover, .caption4:hover, .caption5:hover, .caption6:hover{
+	     -webkit-transform: none;
+	    -o-transform: none;
+	    -moz-transform: none;
+	    transform: none;
+	}
+
+	.container br{
+		display: none;
+	}
+
+	.h1-serv{
+		font-size: 20px;
+		padding: 5px 5px !important;
+		font-weight: bold;
+		color: #000 !important;
+	}
+
+	/*.h4-serv{
+		border: 2px solid yellow;
+
+	}*/
+	/*********END SERVICIOS***********/
+
+	/*********DISEÑO NOSOTROS*********/
+	.mvv2, .p-presta{
+		text-align: justify;
+	}
+
+	.mvv-h2, .h1-presta, .h3-presta{
+		text-align: center;
+	}
+
+	.h1-presta{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.h3-presta{
+		font-size: 16px;
+	}
+
+	.texton, .figura{
+		width: 100%;
+		float: none;
+	}
+
+	.tamano{
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.p-uno{
+		text-align: center;
+		padding: 0px 2px;
+	}
+
+	.i-tamano{
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.figura img{
+		width: 35%;
+		margin: auto;
+	}
+
+	.img-presta{
+		width: 50%;
+		margin:auto;
+	}
+
+
+	/*********END NOSOTROS***********/
+
+	/*********DISEÑO CONTACTO*********/
+	.h1{
+		/*border: 2px solid yellow;*/
+		text-align: justify;
+	}
+
+	legend{
+		text-align: justify !important;
+		font-size: 16px !important;
+		font-weight: bold;
+	}
+
+	address{
+		text-align: justify;
+	}
+
+	/*********END CONTACTO***********/
+
+
+	/*********DISEÑO CONTACTO*********/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	/*********END CONTACTO***********/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+		/**********DISEÑO INDEX***************/
+	.banner, .banners, .bannerc, .bannern{
+		height: 100%;
+	}
+
+	.logo{
+		/*border: 2px solid red;*/
+		margin: auto;
+		width: 40%;
+	}
+
+	nav{
+		width: 100%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul a{
+		padding: 5px 15px !important;
+		font-size: 18px !important;
+	}
+	
+	.menu-op{
+		background: #fff;
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		padding: 3px;
+		cursor: pointer;
+		display: block;
+	}
+
+	.menu-op i{
+		/*border: 2px solid red;*/
+		font-size: 20px;
+	}
+
+
+	.texto, .texto2, .txt-nos{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.texto br{
+		display: none;
+	}
+
+	.imagen, .img-txt2, .imagen2, .imagen3{
+		height: 150px;
+	}
+
+	.img-txt2{
+		margin: auto;
+	}
+
+	.h2-nos{
+		background: rgba(255,255,255,.6);
+		color: #000 !important;
+		font-weight: bold;
+		padding: 10px 0px;
+	}
+
+	.txt-ser li, .txt-pro li{
+		border: 2px solid red !important;
+		text-align: center !important;
+		overflow: hidden !important; 
+		width: 50%;
+		margin: auto;
+	}
+
+	.hola div{
+		text-align: center !important;
+	}
+	/*********END DISEÑO INDEX*********/
+
+	/*********DISEÑO SERVICIOS*********/
+	.caption, .caption2, .caption3, .caption4, .caption5, .caption6{
+		/*border: 2px solid red;*/
+		width: 80%;
+		height: 200px;
+		margin: auto !important;
+		float: none !important;
+	}
+
+	.images{
+		text-align: center;
+	}
+	
+	.texto-vertical, .texto-vertical2{
+		/*border: 2px solid red;*/
+		word-wrap: normal;
+		width: 60%;
+		margin: auto;
+		padding: 5px 0px !important;
+		/*vertical-align: center;*/
+		/*align-items: middle;*/
+		vertical-align: middle;
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+
+	.caption:hover, .caption2:hover, .caption3:hover, .caption4:hover, .caption5:hover, .caption6:hover{
+	     -webkit-transform: none;
+	    -o-transform: none;
+	    -moz-transform: none;
+	    transform: none;
+	}
+
+	.container br{
+		display: none;
+	}
+
+	.h1-serv{
+		font-size: 20px;
+		padding: 5px 5px !important;
+		font-weight: bold;
+		color: #000 !important;
+	}
+
+	/*.h4-serv{
+		border: 2px solid yellow;
+
+	}*/
+	/*********END SERVICIOS***********/
+
+	/*********DISEÑO NOSOTROS*********/
+	.mvv2, .p-presta{
+		text-align: justify;
+	}
+
+	.mvv-h2, .h1-presta, .h3-presta{
+		text-align: center;
+	}
+
+	.h1-presta{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.h3-presta{
+		font-size: 16px;
+	}
+
+	.texton, .figura{
+		width: 100%;
+		float: none;
+	}
+
+	.tamano{
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.p-uno{
+		text-align: center;
+		padding: 0px 2px;
+	}
+
+	.i-tamano{
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.figura img{
+		width: 35%;
+		margin: auto;
+	}
+
+	.img-presta{
+		width: 50%;
+		margin:auto;
+	}
+
+
+	/*********END NOSOTROS***********/
+
+	/*********DISEÑO CONTACTO*********/
+	.h1{
+		/*border: 2px solid yellow;*/
+		text-align: justify;
+	}
+
+	legend{
+		text-align: justify !important;
+		font-size: 16px !important;
+		font-weight: bold;
+	}
+
+	address{
+		text-align: justify;
+	}
+
+	/*********END CONTACTO***********/
+
+
+	/*********DISEÑO CONTACTO*********/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	/*********END CONTACTO***********/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+		/**********DISEÑO INDEX***************/
+	.banner, .banners, .bannerc, .bannern{
+		height: 100%;
+	}
+
+	.logo{
+		/*border: 2px solid red;*/
+		margin: auto;
+		width: 40%;
+	}
+
+	nav{
+		width: 100%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul a{
+		padding: 5px 15px !important;
+		font-size: 18px !important;
+	}
+	
+	.menu-op{
+		background: #fff;
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		padding: 3px;
+		cursor: pointer;
+		display: block;
+	}
+
+	.menu-op i{
+		/*border: 2px solid red;*/
+		font-size: 20px;
+	}
+
+
+	.texto, .texto2, .txt-nos{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.texto br{
+		display: none;
+	}
+
+	.imagen, .img-txt2, .imagen2, .imagen3{
+		height: 150px;
+	}
+
+	.img-txt2{
+		margin: auto;
+	}
+
+	.h2-nos{
+		background: rgba(255,255,255,.6);
+		color: #000 !important;
+		font-weight: bold;
+		padding: 10px 0px;
+	}
+
+	.txt-ser li, .txt-pro li{
+		border: 2px solid red !important;
+		text-align: center !important;
+		overflow: hidden !important; 
+		width: 50%;
+		margin: auto;
+	}
+
+	.hola div{
+		text-align: center !important;
+	}
+	/*********END DISEÑO INDEX*********/
+
+	/*********DISEÑO SERVICIOS*********/
+	.caption, .caption2, .caption3, .caption4, .caption5, .caption6{
+		/*border: 2px solid red;*/
+		width: 80%;
+		height: 200px;
+		margin: auto !important;
+		float: none !important;
+	}
+
+	.images{
+		text-align: center;
+	}
+	
+	.texto-vertical, .texto-vertical2{
+		/*border: 2px solid red;*/
+		word-wrap: normal;
+		width: 60%;
+		margin: auto;
+		padding: 5px 0px !important;
+		/*vertical-align: center;*/
+		/*align-items: middle;*/
+		vertical-align: middle;
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+
+	.caption:hover, .caption2:hover, .caption3:hover, .caption4:hover, .caption5:hover, .caption6:hover{
+	     -webkit-transform: none;
+	    -o-transform: none;
+	    -moz-transform: none;
+	    transform: none;
+	}
+
+	.container br{
+		display: none;
+	}
+
+	.h1-serv{
+		font-size: 20px;
+		padding: 5px 5px !important;
+		font-weight: bold;
+		color: #000 !important;
+	}
+
+	/*.h4-serv{
+		border: 2px solid yellow;
+
+	}*/
+	/*********END SERVICIOS***********/
+
+	/*********DISEÑO NOSOTROS*********/
+	.mvv2, .p-presta{
+		text-align: justify;
+	}
+
+	.mvv-h2, .h1-presta, .h3-presta{
+		text-align: center;
+	}
+
+	.h1-presta{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.h3-presta{
+		font-size: 16px;
+	}
+
+	.texton, .figura{
+		width: 100%;
+		float: none;
+	}
+
+	.tamano{
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.p-uno{
+		text-align: center;
+		padding: 0px 2px;
+	}
+
+	.i-tamano{
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.figura img{
+		width: 35%;
+		margin: auto;
+	}
+
+	.img-presta{
+		width: 50%;
+		margin:auto;
+	}
+
+
+	/*********END NOSOTROS***********/
+
+	/*********DISEÑO CONTACTO*********/
+	.h1{
+		/*border: 2px solid yellow;*/
+		text-align: justify;
+	}
+
+	legend{
+		text-align: justify !important;
+		font-size: 16px !important;
+		font-weight: bold;
+	}
+
+	address{
+		text-align: justify;
+	}
+
+	/*********END CONTACTO***********/
+
+
+	/*********DISEÑO CONTACTO*********/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	/*********END CONTACTO***********/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	.hola div{
+		text-align: center !important;
+	}
+
+	.txt-nos{
+		text-align: justify;
+	}
+
+	.images{
+		margin: auto;
+	}
+
+	.caption, .caption2, .caption3, .caption4, .caption5, .caption6{
+		width: 32.5%;
+		height: 100%;
+		margin: auto !important;
+		float: none !important;
+	}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

@@ -15,22 +15,25 @@
 			<a class="selector" href="contacto.php">CONTACTO</a>
 		</ul>
 	</nav>
+   <div class="menu-op">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
 </div>
 
 <div class="section mvv">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h2 class="text-left" style="color: #FB4200;">Misión</h2>
-            <p>Ofrecer a nuestros clientes un servicio integral para sus proyectos, para que juntos logremos sus objetivos, mediante los procesos de planeación, organización, dirección y control, ofreciendo la calidad y trabajo profesional requerido, ya que para nosotros el éxito de sus proyectos, forma parte de nuestras metas.</p>
+            <h2 class="text-left mvv-h2" style="color: #FB4200;">Misión</h2>
+            <p class="mvv2">Ofrecer a nuestros clientes un servicio integral para sus proyectos, para que juntos logremos sus objetivos, mediante los procesos de planeación, organización, dirección y control, ofreciendo la calidad y trabajo profesional requerido, ya que para nosotros el éxito de sus proyectos, forma parte de nuestras metas.</p>
           </div>
           <div class="col-md-4">
-            <h2 class="text-left" style="color: #FB4200;">Visión</h2>
-            <p>Obtener el reconocimiento de la industria de la construcción como una empresa líder en la Consultoría en medio ambiente, Arquitectura, Supervisión, Administración y Control de Obra, Mantenimiento y Construcción.</p>
+            <h2 class="text-left mvv-h2" style="color: #FB4200;">Visión</h2>
+            <p class="mvv2">Obtener el reconocimiento de la industria de la construcción como una empresa líder en la Consultoría en medio ambiente, Arquitectura, Supervisión, Administración y Control de Obra, Mantenimiento y Construcción.</p>
           </div>
           <div class="col-md-4">
-            <h2 class="text-left" style="color: #FB4200;">Valores</h2>
-            <p>Ofrecer a nuestros clientes la mayor seriedad, servicio y honestidad, así como amplios conocimientos técnicos y la gran experiencia de nuestros colaboradores mediante una buena planeación, organización, dirección y control de sus proyectos.</p>
+            <h2 class="text-left mvv-h2" style="color: #FB4200;">Valores</h2>
+            <p class="mvv2">Ofrecer a nuestros clientes la mayor seriedad, servicio y honestidad, así como amplios conocimientos técnicos y la gran experiencia de nuestros colaboradores mediante una buena planeación, organización, dirección y control de sus proyectos.</p>
           </div>
         </div>
       </div>
@@ -42,17 +45,17 @@
         <div class="row">
           <div class="texton pull-left">
             <p class="">
-            	<p class="text-right"><spam>
-            		<i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i>
+            	<p class="text-right p-uno"><spam>
+            		<i class="fa fa-pencil-square-o fa-3x i-tamano" aria-hidden="true"></i>
             	</spam> <spam class="tamano"> PLANEACIÓN DEL PROYECTO</spam></p>
-            	<p class="text-right uno"><spam>
-            		<i class="fa fa-sitemap fa-3x" aria-hidden="true"></i>
+            	<p class="text-right uno p-uno"><spam>
+            		<i class="fa fa-sitemap fa-3x i-tamano" aria-hidden="true"></i>
             	</spam><spam class="tamano "> ORGANIZACIÓN Y DIRECCIÓN DEL PROYECTO</spam></p>
-            	<p class="text-right uno"><spam>
-            		<i class="fa fa-television fa-3x" aria-hidden="true"></i>
+            	<p class="text-right uno p-uno"><spam>
+            		<i class="fa fa-television fa-3x i-tamano" aria-hidden="true"></i>
             	</spam><spam class="tamano"> DISEÑO DEL PROGRAMA DE ACTIVIDADES DEL CONTROL DE OBRA</spam></p>
-            	<p class="text-right uno"><spam>
-            		<i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i>
+            	<p class="text-right uno p-uno"><spam>
+            		<i class="fa fa-pencil-square-o fa-3x i-tamano" aria-hidden="true"></i>
             	</spam><spam class="tamano"> CONTROL DE AVANCE FÍSICO Y FINANCIERO</spam></p>
             </p>
           </div>
@@ -67,12 +70,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="../img/psia.jpg" class="img-responsive">
+            <img src="../img/psia.jpg" class="img-responsive img-presta">
           </div>
           <div class="col-md-6">
-            <h1 style="color: #FB4200;">Quienes somos</h1>
-            <h3 style="color: #FB4200;">PRESTADORES DE SERVICIOS INTELIGENTES ABOUMEYANG S.C.P.</h3>
-            <p>Somos una empresa de Consultoría en medio ambiente, Arquitectura, Supervisión, Administración y Control de Obra, Mantenimiento y Construcción., con una amplia de experiencia en el mercado, gracias a la confianza que nos han brindado muchos de nuestros clientes y colaboradores. <br><br>
+            <h1 class="h1-presta" style="color: #FB4200;">Quienes somos</h1>
+            <h3 class="h3-presta" style="color: #FB4200;">PRESTADORES DE SERVICIOS INTELIGENTES ABOUMEYANG S.C.P.</h3>
+            <p class="p-presta">Somos una empresa de Consultoría en medio ambiente, Arquitectura, Supervisión, Administración y Control de Obra, Mantenimiento y Construcción., con una amplia de experiencia en el mercado, gracias a la confianza que nos han brindado muchos de nuestros clientes y colaboradores. <br><br>
  
 			Las áreas en donde hemos participado son en desarrollos residenciales, comerciales, turísticos, industriales y de infraestructura, los cuales nos han ayudado a reforzar nuestros conocimientos, habilidades técnicas y experiencia en cada uno de nuestros servicios.
 </p>

@@ -14,6 +14,9 @@
 			<a class="selector" href="vistas/contacto.php">CONTACTO</a>
 		</ul>
 	</nav>
+	<div class="menu-op">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
 </div>
 <p class="texto">Gestión de Proyectos bajo parámetros especializados <br> usando Building Information Modeling y Lean Construction</p>
 
@@ -21,8 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="img/bim.png"
-            class="img-responsive">
+            <img src="img/bim.png" class="img-responsive img-txt2">
           </div>
           <div class="col-md-6">
             <!-- <h1>A title</h1> -->
@@ -37,19 +39,18 @@
 <div class="seccion">
 	<div class="fondo">
 		        <div class="row hola">
-		          <div class="col-md-4">
+		          <div class="col-sm-6 col-md-4">
 		            <figure class="imagen">
-		            	
 		            </figure>
-		            <h2 class="text-center" style="color: #fff;">Nosotros</h2>
-		            <p style="color: #fff;">Somos una empresa de Consultoría en medio ambiente, Arquitectura, Supervisión, Administración y Control de Obra, Mantenimiento y Construcción, con una amplia experiencia en el mercado, gracias a la confianza que nos han brindado muchos de nuestros clientes y colaboradores.</p>
+		            <h2 class="text-center h2-nos" style="color: #fff;">Nosotros</h2>
+		            <p class="txt-nos" style="color: #fff;">Somos una empresa de Consultoría en medio ambiente, Arquitectura, Supervisión, Administración y Control de Obra, Mantenimiento y Construcción, con una amplia experiencia en el mercado, gracias a la confianza que nos han brindado muchos de nuestros clientes y colaboradores.</p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-sm-6 col-md-4">
 		            <figure class="imagen2">
 		            	
 		            </figure>
-		            <h2 class="text-center" style="color: #fff;">Servicios</h2>
-		            <p style="color: #fff;">
+		            <h2 class="text-center h2-nos" style="color: #fff;">Servicios</h2>
+		            <p class="txt-ser" style="color: #fff;">
 		            	<li style="color: #fff;">Ingeniería de costos</li>
 		            	<li style="color: #fff;">Supervisión de obra</li>
 		            	<li style="color: #fff;">Administración y control de obra</li>
@@ -57,12 +58,12 @@
 		            	<li style="color: #fff;">Mantenimiento y Construcción</li>
 		            </p>
 		          </div>
-		          <div class="col-md-4">
+		          <div class="col-sm-6 col-sm-offset-3 col-md-4">
 		            <figure class="imagen3">
 		            	
 		            </figure>
-		            <h2 class="text-center" style="color: #fff;">Proyectos</h2>
-		            <p style="color: #fff;">
+		            <h2 class="text-center h2-nos" style="color: #fff;">Proyectos</h2>
+		            <p class="txt-pro" style="color: #fff;">
 		            	<li style="color: #fff;">Desarrollos residenciales</li>
 		            	<li style="color: #fff;">Desarrollos hospitalarios</li>
 		            	<li style="color: #fff;">Desarrollos comerciales</li>

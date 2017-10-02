@@ -48,6 +48,11 @@ nav ul a.selector:hover{
     background-color:  #424949;
     color: #FB4200;
 }
+
+.menu-op{
+    display: none;
+}
+
 .texto{
     width: 90%;
     margin: 0 auto;

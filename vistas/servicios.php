@@ -14,13 +14,16 @@
 			<a class="selector" href="contacto.php">CONTACTO</a>
 		</ul>
 	</nav>
+    <div class="menu-op">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
 </div>
-<h1 class="text-center" style="color: #FB4200; padding: 40px 0px;">Comprometidos con la calidad para nuestros clientes</h1>
-<h4 class="text-center" style="color: #FB4200; padding: 10px 0px;">Contamos con los siguientes servicios:</h4>
+<h1 class="text-center h1-serv" style="color: #FB4200; padding: 40px 0px;">Comprometidos con la calidad para nuestros clientes</h1>
+<h4 class="text-center h4-serv" style="color: #FB4200; padding: 10px 0px;">Contamos con los siguientes servicios:</h4>
 
 <div class="section mvv">
      <div class="container">
-        <div class="row">
+        <div class="row images">
         	<figure class="caption">
         		<div class="fondo-caption">
         			<p class="texto-vertical">DISEÑO</p>
@@ -38,7 +41,7 @@
         	</figure>
         </div> <br><br>
 
-        <div class="row">
+        <div class="row images">
         	<figure class="caption4">
         		<div class="fondo-caption">
         			<p class="texto-vertical2">ARQUITECTURA</p>
